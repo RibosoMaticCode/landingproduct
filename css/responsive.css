@@ -1,7 +1,7 @@
 @media (max-width: 480px) { 
     /* reset grid */
     .grid{
-        grid-column-gap:initial;
+        gap:initial;
     }
     .grid2,
     .grid3,
@@ -55,7 +55,7 @@
 
     /* update grid feature */
     #features .grid{
-        grid-column-gap:10px;
+        gap:10px;
     }
     #features .grid3{
         grid-template-columns: repeat(2, 1fr);
